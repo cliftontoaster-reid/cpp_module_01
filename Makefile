@@ -26,6 +26,9 @@ endef
 all:
 	$(call run_target,all)
 
+re:
+	$(call run_target,re)
+
 help:
 	@echo "Usage: make [target]"
 	@echo "Targets:"

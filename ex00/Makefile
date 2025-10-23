@@ -55,7 +55,7 @@ fclean: clean
 
 re: fclean
 	@$(MAKE) all -j$(shell nproc) CC=$(CC)
-	@echo "Picoshell recompiled successfully."
+	@echo "$(NAME) recompiled successfully."
 
 $(HOME)/.local/bin/trunk:
 	@echo "Installing trunk..."
